@@ -1,0 +1,42 @@
+body {
+	font-family: 'Lucida Grande', "Segoe UI", Arial;
+	height: 100%;
+	width: 100%;
+}
+
+.window {
+	height: 100%;
+	width: 100%;
+}
+
+.window .sidebar {
+	background-color: black;
+	width: 71px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.window .sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.window .sidebar ul li {
+	margin: 0;
+	padding: 7px 0;
+}
+	.window .sidebar ul li a {
+		display: block;
+		text-align: center;
+	}
+
+.window-content {
+	position: absolute;
+	top: 0;
+	left: 71px;
+	right: 0;
+	bottom: 0;
+	padding: 32px;
+}

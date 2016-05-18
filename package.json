@@ -1,0 +1,30 @@
+{
+  "name": "did-do",
+  "description": "simple tool to track what you did",
+  "version": "0.0.1",
+  "main": "./dist/main.js",
+  "author": {
+    "name": "Jason Gotti",
+    "email": "jason.gotti@gmail.com"
+  },
+  "license": "MIT",
+  "readme": "README.md",
+  "scripts": {
+    "start": "gulp start",
+    "poststart": "electron .",
+    "watch": "gulp watch & electron .",
+    "clean": "gulp clean"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1",
+    "electron-reload": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.1"
+  }
+}
